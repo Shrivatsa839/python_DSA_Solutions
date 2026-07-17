@@ -1,84 +1,164 @@
-# 📅 Day 5 – Python DSA: Linked List & Sorting Algorithms
+# 🐍 Python DSA Journey – Day 5 & Day 6
 
-Welcome to **Day 5** of my **Python Data Structures & Algorithms** journey! 🚀
+Welcome to my **Python Data Structures & Algorithms** learning journey! 🚀
 
-Today, I focused on implementing one of the most important data structures and sorting techniques from scratch using Python.
+This repository contains my daily practice programs where I implement fundamental data structures and algorithms from scratch using Python.
+
+---
+
+# 📅 Day 5 – Linked List & Sorting Algorithms
 
 ## 📚 Topics Covered
 
-### 🔗 Linked List
+### 🔗 Singly Linked List
 
-Implemented a **Singly Linked List** with the following operations:
+Implemented a Linked List with the following operations:
 
 * Insert at Beginning
 * Display Linked List
-* User-driven menu using `match-case`
 
 ### 🔄 Sorting Algorithms
 
 #### ⚡ Quick Sort
 
-* Recursive Divide and Conquer algorithm
+* Divide and Conquer approach
 * Pivot-based partitioning
-* Average Time Complexity: **O(n log n)**
-* Worst Case: **O(n²)**
-* Space Complexity: **O(log n)** (recursive stack)
+* Recursive implementation
+
+**Complexity**
+
+* Best/Average: **O(n log n)**
+* Worst: **O(n²)**
 
 #### 📌 Insertion Sort
 
-* Simple comparison-based sorting algorithm
-* Efficient for small or nearly sorted datasets
-* Best Case: **O(n)**
-* Average/Worst Case: **O(n²)**
-* Space Complexity: **O(1)**
+* In-place comparison sorting
+* Efficient for small or nearly sorted arrays
+
+**Complexity**
+
+* Best: **O(n)**
+* Average/Worst: **O(n²)**
+
+### 📂 Programs
+
+* `linked_list.py`
+* `quick_sort.py`
+* `insertion_sort.py`
 
 ---
 
-## 📂 Programs Included
+# 📅 Day 6 – Stack & Advanced Linked List Operations
 
-* `linked_list.py` – Singly Linked List implementation
-* `quick_sort.py` – Quick Sort algorithm
-* `insertion_sort.py` – Insertion Sort algorithm
+## 📚 Topics Covered
+
+### 📚 Stack (Array Implementation)
+
+Implemented a Stack using Python Lists with:
+
+* Push
+* Pop
+* Display
+* Overflow Detection
+* Underflow Detection
+
+### 🔗 Advanced Linked List Operations
+
+Extended the Linked List implementation by adding:
+
+#### Insertion Operations
+
+* Insert at Beginning
+* Insert at End
+* Insert at Given Position
+
+#### Deletion Operations
+
+* Delete at Beginning
+* Delete at End
+* Delete at Given Position
+
+#### Other Features
+
+* Display Linked List
+* Menu-driven implementation using Python `match-case`
 
 ---
 
-## 🎯 Concepts Practiced
+## 📂 Programs
 
-* Classes and Objects
-* Node creation
-* Pointer manipulation
-* Linked List traversal
+* `stack.py`
+* `linked_list_operations.py`
+
+---
+
+# 🎯 Concepts Practiced
+
+## Data Structures
+
+* Stack (Array)
+* Singly Linked List
+
+## Sorting Algorithms
+
+* Quick Sort
+* Insertion Sort
+
+## Python Concepts
+
+* Classes & Objects
+* Constructors
+* Node-based Data Structures
+* Lists
+* Functions
 * Recursion
-* Partitioning logic
-* In-place sorting
-* Time & Space Complexity analysis
+* Menu-driven Programming
+* Pattern Matching (`match-case`)
+* Pointer Manipulation
+* Traversal
+* Insertion & Deletion Operations
 
 ---
 
-## 💡 Learning Outcome
+# 📈 Learning Outcomes
 
-By completing today's problems, I strengthened my understanding of:
+Through these implementations, I gained practical experience with:
 
-* How Linked Lists work internally
-* Dynamic memory concepts using references
-* Recursive problem-solving
-* Different sorting techniques and their trade-offs
-* Writing clean, modular Python code
+* Understanding Stack (LIFO) operations
+* Linked List node manipulation
+* Dynamic data storage
+* Recursive sorting algorithms
+* Time and Space Complexity analysis
+* Writing modular and reusable Python code
 
 ---
 
-## 🛠️ Language Used
+# 🛠️ Language Used
 
 * Python 3
 
 ---
 
-## 🚀 Progress Tracker
+# 📊 Progress Tracker
 
-✅ Day 5 Completed
-
-**Topics Covered:** Linked List | Quick Sort | Insertion Sort
+| Day     | Topics                                  | Status    |
+| ------- | --------------------------------------- | --------- |
+| ✅ Day 5 | Linked List, Quick Sort, Insertion Sort | Completed |
+| ✅ Day 6 | Stack, Advanced Linked List Operations  | Completed |
 
 ---
 
-> *"Consistency beats intensity. One day at a time, one algorithm at a time."* 💻🔥
+## 🚀 Upcoming Topics
+
+* Queue
+* Circular Queue
+* Doubly Linked List
+* Circular Linked List
+* Binary Search
+* Searching Algorithms
+* Trees
+* Graphs
+
+---
+
+> **"Great software engineers aren't built in a day—they're built one data structure, one algorithm, and one commit at a time."** 💻🚀
