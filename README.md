@@ -1,8 +1,8 @@
-# 🐍 Python DSA Journey – Day 5 & Day 6
+# 🐍 Python DSA Journey – Day 5, Day 6 & Day 7
 
-Welcome to my **Python Data Structures & Algorithms** learning journey! 🚀
+Welcome to my **Python Data Structures & Algorithms (DSA)** learning journey! 🚀
 
-This repository contains my daily practice programs where I implement fundamental data structures and algorithms from scratch using Python.
+This repository contains my daily practice programs where I implement fundamental data structures, algorithms, and Python concepts from scratch. My goal is to strengthen my problem-solving skills and build a strong foundation for coding interviews and software development.
 
 ---
 
@@ -12,7 +12,7 @@ This repository contains my daily practice programs where I implement fundamenta
 
 ### 🔗 Singly Linked List
 
-Implemented a Linked List with the following operations:
+Implemented the following operations:
 
 * Insert at Beginning
 * Display Linked List
@@ -21,11 +21,11 @@ Implemented a Linked List with the following operations:
 
 #### ⚡ Quick Sort
 
+* Recursive implementation
 * Divide and Conquer approach
 * Pivot-based partitioning
-* Recursive implementation
 
-**Complexity**
+**Time Complexity**
 
 * Best/Average: **O(n log n)**
 * Worst: **O(n²)**
@@ -35,7 +35,7 @@ Implemented a Linked List with the following operations:
 * In-place comparison sorting
 * Efficient for small or nearly sorted arrays
 
-**Complexity**
+**Time Complexity**
 
 * Best: **O(n)**
 * Average/Worst: **O(n²)**
@@ -48,13 +48,13 @@ Implemented a Linked List with the following operations:
 
 ---
 
-# 📅 Day 6 – Stack & Advanced Linked List Operations
+# 📅 Day 6 – Stack & Advanced Linked List
 
 ## 📚 Topics Covered
 
 ### 📚 Stack (Array Implementation)
 
-Implemented a Stack using Python Lists with:
+Implemented:
 
 * Push
 * Pop
@@ -62,74 +62,182 @@ Implemented a Stack using Python Lists with:
 * Overflow Detection
 * Underflow Detection
 
-### 🔗 Advanced Linked List Operations
+### 🔗 Advanced Linked List
 
-Extended the Linked List implementation by adding:
+Implemented the following operations:
 
-#### Insertion Operations
+#### Insertion
 
 * Insert at Beginning
 * Insert at End
 * Insert at Given Position
 
-#### Deletion Operations
+#### Deletion
 
 * Delete at Beginning
 * Delete at End
 * Delete at Given Position
 
-#### Other Features
-
-* Display Linked List
-* Menu-driven implementation using Python `match-case`
-
----
-
-## 📂 Programs
+### 📂 Programs
 
 * `stack.py`
 * `linked_list_operations.py`
 
 ---
 
-# 🎯 Concepts Practiced
+# 📅 Day 7 – Trees, Queue & Searching Algorithms
+
+## 🌳 Trees
+
+### Concepts Covered
+
+* Introduction to Trees
+* Tree Terminologies
+* Tree Properties
+* Types of Trees
+* Binary Tree
+* Binary Search Tree (BST)
+* Full Binary Tree
+* Complete Binary Tree
+* Perfect Binary Tree
+* Balanced Binary Tree
+* Degenerate Tree
+
+### Tree Traversals
+
+* Inorder Traversal
+* Preorder Traversal (Theory)
+* Postorder Traversal (Theory)
+* Level Order Traversal (Theory)
+
+### Binary Tree Implementation
+
+Implemented:
+
+* Node Creation
+* Recursive Insertion
+* Inorder Traversal
+
+---
+
+## 📥 Linear Queue
+
+Implemented a Linear Queue using Arrays with:
+
+* Enqueue
+* Dequeue
+* Display Queue
+* Overflow Detection
+* Underflow Detection
+
+---
+
+## 🔍 Searching Algorithms
+
+### Linear Search
+
+Implemented:
+
+* Iterative Linear Search
+* Recursive Linear Search
+
+**Time Complexity**
+
+* Best Case: **O(1)**
+* Worst Case: **O(n)**
+
+---
+
+### Binary Search
+
+Implemented:
+
+* Recursive Binary Search
+
+**Time Complexity**
+
+* Best Case: **O(1)**
+* Average/Worst Case: **O(log n)**
+
+---
+
+# 🧠 Concepts Practiced
 
 ## Data Structures
 
-* Stack (Array)
+* Stack
+* Queue
 * Singly Linked List
+* Binary Tree
 
-## Sorting Algorithms
+## Algorithms
 
 * Quick Sort
 * Insertion Sort
+* Linear Search
+* Binary Search
 
 ## Python Concepts
 
 * Classes & Objects
 * Constructors
-* Node-based Data Structures
-* Lists
 * Functions
+* Lists
 * Recursion
-* Menu-driven Programming
+* Node-Based Data Structures
+* Menu-Driven Programming
 * Pattern Matching (`match-case`)
-* Pointer Manipulation
-* Traversal
-* Insertion & Deletion Operations
+* Searching Techniques
+* Sorting Techniques
 
 ---
 
-# 📈 Learning Outcomes
+# 📂 Repository Structure
 
-Through these implementations, I gained practical experience with:
+```text
+Day-5/
+│── linked_list.py
+│── quick_sort.py
+│── insertion_sort.py
 
-* Understanding Stack (LIFO) operations
-* Linked List node manipulation
-* Dynamic data storage
-* Recursive sorting algorithms
-* Time and Space Complexity analysis
-* Writing modular and reusable Python code
+Day-6/
+│── stack.py
+│── linked_list_operations.py
+
+Day-7/
+│── binary_tree.py
+│── tree_notes.py
+│── linear_queue.py
+│── linear_search.py
+│── binary_search.py
+
+README.md
+```
+
+---
+
+# 📈 Progress Tracker
+
+| Day     | Topics Covered                                    | Status    |
+| ------- | ------------------------------------------------- | --------- |
+| ✅ Day 5 | Linked List, Quick Sort, Insertion Sort           | Completed |
+| ✅ Day 6 | Stack, Advanced Linked List Operations            | Completed |
+| ✅ Day 7 | Trees, Linear Queue, Linear Search, Binary Search | Completed |
+
+---
+
+# 🎯 Learning Outcomes
+
+Through these implementations, I strengthened my understanding of:
+
+* Dynamic Data Structures
+* Tree Terminologies and Traversals
+* Queue Operations
+* Searching Algorithms
+* Sorting Algorithms
+* Recursive Programming
+* Time & Space Complexity
+* Object-Oriented Programming in Python
 
 ---
 
@@ -139,26 +247,18 @@ Through these implementations, I gained practical experience with:
 
 ---
 
-# 📊 Progress Tracker
+# 🚀 Upcoming Topics
 
-| Day     | Topics                                  | Status    |
-| ------- | --------------------------------------- | --------- |
-| ✅ Day 5 | Linked List, Quick Sort, Insertion Sort | Completed |
-| ✅ Day 6 | Stack, Advanced Linked List Operations  | Completed |
-
----
-
-## 🚀 Upcoming Topics
-
-* Queue
 * Circular Queue
-* Doubly Linked List
 * Circular Linked List
-* Binary Search
-* Searching Algorithms
-* Trees
+* Doubly Linked List
+* Binary Search Tree (BST)
+* Heap
+* Hashing
 * Graphs
+* Dynamic Programming
+* LeetCode DSA Problems
 
 ---
 
-> **"Great software engineers aren't built in a day—they're built one data structure, one algorithm, and one commit at a time."** 💻🚀
+> **"Consistency is the key to mastering Data Structures and Algorithms. Every day's practice brings me one step closer to becoming a better software engineer."** 🚀
