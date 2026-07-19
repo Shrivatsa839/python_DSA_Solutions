@@ -1,8 +1,8 @@
-# 🐍 Python DSA Journey – Day 5, Day 6 & Day 7
+# 🐍 Python DSA Journey – Day 5 to Day 8
 
 Welcome to my **Python Data Structures & Algorithms (DSA)** learning journey! 🚀
 
-This repository contains my daily practice programs where I implement fundamental data structures, algorithms, and Python concepts from scratch. My goal is to strengthen my problem-solving skills and build a strong foundation for coding interviews and software development.
+This repository contains my daily practice programs where I implement fundamental data structures, algorithms, recursion techniques, and problem-solving concepts from scratch using Python. My goal is to strengthen my programming skills and prepare for coding interviews and software development roles.
 
 ---
 
@@ -12,7 +12,7 @@ This repository contains my daily practice programs where I implement fundamenta
 
 ### 🔗 Singly Linked List
 
-Implemented the following operations:
+Implemented:
 
 * Insert at Beginning
 * Display Linked List
@@ -64,15 +64,15 @@ Implemented:
 
 ### 🔗 Advanced Linked List
 
-Implemented the following operations:
+Implemented:
 
-#### Insertion
+#### Insertion Operations
 
 * Insert at Beginning
 * Insert at End
 * Insert at Given Position
 
-#### Deletion
+#### Deletion Operations
 
 * Delete at Beginning
 * Delete at End
@@ -103,13 +103,6 @@ Implemented the following operations:
 * Balanced Binary Tree
 * Degenerate Tree
 
-### Tree Traversals
-
-* Inorder Traversal
-* Preorder Traversal (Theory)
-* Postorder Traversal (Theory)
-* Level Order Traversal (Theory)
-
 ### Binary Tree Implementation
 
 Implemented:
@@ -122,7 +115,7 @@ Implemented:
 
 ## 📥 Linear Queue
 
-Implemented a Linear Queue using Arrays with:
+Implemented:
 
 * Enqueue
 * Dequeue
@@ -136,28 +129,85 @@ Implemented a Linear Queue using Arrays with:
 
 ### Linear Search
 
-Implemented:
-
-* Iterative Linear Search
-* Recursive Linear Search
+* Iterative Implementation
+* Recursive Implementation
 
 **Time Complexity**
 
 * Best Case: **O(1)**
 * Worst Case: **O(n)**
 
----
-
 ### Binary Search
 
-Implemented:
-
-* Recursive Binary Search
+* Recursive Implementation
 
 **Time Complexity**
 
 * Best Case: **O(1)**
 * Average/Worst Case: **O(log n)**
+
+### 📂 Programs
+
+* `binary_tree.py`
+* `tree_notes.py`
+* `linear_queue.py`
+* `linear_search.py`
+* `binary_search.py`
+
+---
+
+# 📅 Day 8 – Recursion, Tree Traversals & Hashing
+
+## 🔁 Recursion
+
+### Factorial Using Recursion
+
+Implemented recursive factorial calculation.
+
+### Subset Generation
+
+Generated all possible subsets of an array using recursion and backtracking.
+
+**Concepts Practiced**
+
+* Base Case
+* Recursive Calls
+* Backtracking
+* Include/Exclude Technique
+
+---
+
+## 🌳 Tree Traversals
+
+### Depth First Search (DFS)
+
+Implemented DFS traversal using a **Stack**.
+
+### Breadth First Search (BFS)
+
+Implemented BFS (Level Order Traversal) using a **Queue**.
+
+---
+
+## 🔤 String Frequency Counter
+
+Implemented character frequency counting using a Python Dictionary.
+
+Features:
+
+* Count occurrences of each character
+* Store frequencies using a dictionary
+* Display characters in sorted order
+
+---
+
+### 📂 Programs
+
+* `factorial_recursion.py`
+* `subset_generation.py`
+* `dfs_traversal.py`
+* `bfs_traversal.py`
+* `string_frequency.py`
 
 ---
 
@@ -176,6 +226,15 @@ Implemented:
 * Insertion Sort
 * Linear Search
 * Binary Search
+* DFS
+* BFS
+
+## Recursion
+
+* Recursive Functions
+* Backtracking
+* Factorial
+* Subset Generation
 
 ## Python Concepts
 
@@ -183,8 +242,9 @@ Implemented:
 * Constructors
 * Functions
 * Lists
+* Dictionaries
+* Hash Maps
 * Recursion
-* Node-Based Data Structures
 * Menu-Driven Programming
 * Pattern Matching (`match-case`)
 * Searching Techniques
@@ -211,6 +271,13 @@ Day-7/
 │── linear_search.py
 │── binary_search.py
 
+Day-8/
+│── factorial_recursion.py
+│── subset_generation.py
+│── dfs_traversal.py
+│── bfs_traversal.py
+│── string_frequency.py
+
 README.md
 ```
 
@@ -218,26 +285,28 @@ README.md
 
 # 📈 Progress Tracker
 
-| Day     | Topics Covered                                    | Status    |
-| ------- | ------------------------------------------------- | --------- |
-| ✅ Day 5 | Linked List, Quick Sort, Insertion Sort           | Completed |
-| ✅ Day 6 | Stack, Advanced Linked List Operations            | Completed |
-| ✅ Day 7 | Trees, Linear Queue, Linear Search, Binary Search | Completed |
+| Day     | Topics Covered                                                   | Status    |
+| ------- | ---------------------------------------------------------------- | --------- |
+| ✅ Day 5 | Linked List, Quick Sort, Insertion Sort                          | Completed |
+| ✅ Day 6 | Stack, Advanced Linked List Operations                           | Completed |
+| ✅ Day 7 | Trees, Linear Queue, Linear Search, Binary Search                | Completed |
+| ✅ Day 8 | Recursion, Subset Generation, DFS, BFS, String Frequency Counter | Completed |
 
 ---
 
 # 🎯 Learning Outcomes
 
-Through these implementations, I strengthened my understanding of:
+Throughout these four days, I strengthened my understanding of:
 
-* Dynamic Data Structures
-* Tree Terminologies and Traversals
-* Queue Operations
-* Searching Algorithms
-* Sorting Algorithms
-* Recursive Programming
-* Time & Space Complexity
 * Object-Oriented Programming in Python
+* Linked Lists and Dynamic Data Structures
+* Stack and Queue Operations
+* Tree Fundamentals and Traversals
+* Recursive Problem Solving
+* Searching and Sorting Algorithms
+* Backtracking Techniques
+* Hashing using Dictionaries
+* Time & Space Complexity Analysis
 
 ---
 
@@ -254,11 +323,11 @@ Through these implementations, I strengthened my understanding of:
 * Doubly Linked List
 * Binary Search Tree (BST)
 * Heap
-* Hashing
+* Hash Tables
 * Graphs
 * Dynamic Programming
 * LeetCode DSA Problems
 
 ---
 
-> **"Consistency is the key to mastering Data Structures and Algorithms. Every day's practice brings me one step closer to becoming a better software engineer."** 🚀
+> **"Every line of code I write today is an investment in becoming a better software engineer tomorrow."** 🚀💻
