@@ -1,4 +1,4 @@
-# 🐍 Python DSA Journey – Day 5 to Day 8
+# 🐍 Python DSA Journey – Day 5 to Day 9
 
 Welcome to my **Python Data Structures & Algorithms (DSA)** learning journey! 🚀
 
@@ -199,8 +199,6 @@ Features:
 * Store frequencies using a dictionary
 * Display characters in sorted order
 
----
-
 ### 📂 Programs
 
 * `factorial_recursion.py`
@@ -208,6 +206,46 @@ Features:
 * `dfs_traversal.py`
 * `bfs_traversal.py`
 * `string_frequency.py`
+
+---
+
+# 📅 Day 9 – Arrays, Strings, Greedy Algorithms & Recursion
+
+## 📚 Topics Covered
+
+### 📌 Array Subarrays
+
+Implemented a program to generate and print all possible contiguous subarrays of an array.
+
+### 🔤 String Manipulation
+
+Implemented a program to move all `#` characters to the beginning of a string while preserving the order of the remaining characters.
+
+### 🪙 Greedy Algorithm – Coin Change
+
+Implemented the Greedy approach to solve the Coin Change problem.
+
+### 🔁 Subset Generation (Revision)
+
+Revisited recursive subset generation using the Include/Exclude technique.
+
+**Concepts Practiced**
+
+* Array Traversal
+* Nested Loops
+* String Manipulation
+* Character Processing
+* Greedy Strategy
+* Coin Change Problem
+* Recursion
+* Backtracking
+
+### 📂 Programs
+
+* `print_subarrays.py`
+* `move_hashes_to_front.py`
+* `coin_change_greedy.py`
+* `subset_generation.py`
 
 ---
 
@@ -228,6 +266,17 @@ Features:
 * Binary Search
 * DFS
 * BFS
+* Greedy Coin Change
+
+## Arrays
+
+* Array Traversal
+* Subarray Generation
+
+## Strings
+
+* String Manipulation
+* Character Processing
 
 ## Recursion
 
@@ -278,6 +327,12 @@ Day-8/
 │── bfs_traversal.py
 │── string_frequency.py
 
+Day-9/
+│── print_subarrays.py
+│── move_hashes_to_front.py
+│── coin_change_greedy.py
+│── subset_generation.py
+
 README.md
 ```
 
@@ -285,26 +340,28 @@ README.md
 
 # 📈 Progress Tracker
 
-| Day     | Topics Covered                                                   | Status    |
-| ------- | ---------------------------------------------------------------- | --------- |
-| ✅ Day 5 | Linked List, Quick Sort, Insertion Sort                          | Completed |
-| ✅ Day 6 | Stack, Advanced Linked List Operations                           | Completed |
-| ✅ Day 7 | Trees, Linear Queue, Linear Search, Binary Search                | Completed |
-| ✅ Day 8 | Recursion, Subset Generation, DFS, BFS, String Frequency Counter | Completed |
+| Day     | Topics Covered                                                     | Status    |
+| ------- | ------------------------------------------------------------------ | --------- |
+| ✅ Day 5 | Linked List, Quick Sort, Insertion Sort                            | Completed |
+| ✅ Day 6 | Stack, Advanced Linked List Operations                             | Completed |
+| ✅ Day 7 | Trees, Linear Queue, Linear Search, Binary Search                  | Completed |
+| ✅ Day 8 | Recursion, Subset Generation, DFS, BFS, String Frequency Counter   | Completed |
+| ✅ Day 9 | Arrays, String Manipulation, Greedy Coin Change, Subset Generation | Completed |
 
 ---
 
 # 🎯 Learning Outcomes
 
-Throughout these four days, I strengthened my understanding of:
+Throughout these five days, I strengthened my understanding of:
 
 * Object-Oriented Programming in Python
-* Linked Lists and Dynamic Data Structures
-* Stack and Queue Operations
-* Tree Fundamentals and Traversals
-* Recursive Problem Solving
+* Linked Lists, Stacks, Queues, and Trees
 * Searching and Sorting Algorithms
+* Recursive Problem Solving
 * Backtracking Techniques
+* Greedy Algorithms
+* String Manipulation
+* Array Traversal and Subarray Generation
 * Hashing using Dictionaries
 * Time & Space Complexity Analysis
 
@@ -324,7 +381,7 @@ Throughout these four days, I strengthened my understanding of:
 * Binary Search Tree (BST)
 * Heap
 * Hash Tables
-* Graphs
+* Graph Algorithms
 * Dynamic Programming
 * LeetCode DSA Problems
 
